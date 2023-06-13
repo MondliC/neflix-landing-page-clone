@@ -1,0 +1,20 @@
+@media only screen and (min-width: 320px) and (max-width: 1023px) {
+  /* CSS rules for smartphones */
+body {
+  font-size: 16px; 
+}
+img {
+  max-width: 100%; 
+  height: auto; 
+}
+.banner-container,.info-container,.banner-container,.card-title,.card-subtitle,.email-form-title,.get-started-form{
+  width: 100%; /* Make the container occupy the full width of the screen */
+  padding: 10px; /* Add some padding for better readability */
+  box-sizing: border-box; /* Include padding in the total width */
+  height:100%
+}
+.banner-container,.info-container,.banner-container,.card-title,.card-subtitle,.email-form-title,.get-started-form{
+  display: flex; /* Use flexbox for responsive layouts */
+  flex-wrap: wrap; /* Allow elements to wrap to the next line */
+}
+}
